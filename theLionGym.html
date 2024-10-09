@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE LION GYM</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            /* background-position: center ; */
+            box-sizing: border-box;
+
+        }
+
+        .main {
+            box-sizing: border-box;
+            height: 600px;
+            width: 100%;
+            margin: 0;
+            padding: 4px;
+            background: url("gym\ img\ 3.jpg");
+            background-repeat: no-repeat;
+
+        }
+
+        .navbar {
+
+            background-color: rgb(0, 0, 0);
+
+            position: relative;
+            /* position: sticky;
+            top: 0px;
+            margin-top: 0px; */
+
+            /* margin: 0px; */
+        }
+
+        .navbar a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: large;
+            padding: 6px;
+        }
+
+        .navbar a:hover {
+
+            color: black;
+            background-color: white;
+            /* border: 1px solid white; */
+            border-radius: 11px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 14px 10px;
+            padding: 4px 10px;
+
+        }
+
+        .srh {
+            font-size: 20px;
+            color: white;
+            float: right;
+            display: inline-block;
+            margin: 14px 45px;
+        }
+
+        .srh input {
+
+            border-radius: 11px;
+            width: 250px;
+            padding: 6px;
+        }
+
+        /* header{
+            background-color: aqua;
+            margin-top: 0px;
+            /* padding: 0px; */
+        /* color: black; */
+        .navbar::before {
+            content: "";
+            /* background-color: black; */
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index:-1;
+            opacity: 0.9;
+            
+        }
+
+        .main h1 {
+            padding-left: 265px;
+            color: #fffcfb;
+            text-align: end;
+            font-size: 85px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            opacity: 0.7;
+        }
+
+
+
+        .main1 {
+            height: 600px;
+            width: 100%;
+            background-color: #FFFFFF;
+            margin-top: 15px;
+            display: flex;
+
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .main1 h1 {
+            font-size: 43px;
+        }
+
+        .login {
+            border: 2px solid black;
+            border-radius: 23px;
+            width: 85%;
+            height: 920px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login1 input {
+            padding: 10px 200px;
+            margin: 10px;
+            border-radius: 23px;
+        }
+
+        .login-1 input {
+            font-size: 25px;
+        }
+
+        .login-2 input {
+            font-size: 25px;
+        }
+
+        .login-3 input {
+            font-size: 25px;
+        }
+
+        .login-4 input {
+            font-size: 35px;
+        }
+
+        .login-5 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .login-5 button {
+            color: white;
+            background-color: #767676C9;
+            font-size: 40px;
+            padding: 4px 23px;
+            border-radius: 11px;
+
+        }
+
+
+        .footerContainer {
+            width: 100%;
+            /* padding: 70px 30px 20px ; */
+        }
+
+        .socialIcons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .socialIcons a {
+            text-decoration: none;
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        .socialIcons a i {
+            font-size: 2em;
+            color: black;
+            opacity: 0.9;
+        }
+
+        /* Hover affect on social media icon */
+        .socialIcons a:hover {
+            background-color: #111;
+            transition: 0.5s;
+        }
+
+        .socialIcons a:hover i {
+            color: white;
+            transition: 0.5s;
+        }
+
+        
+
+        .footerBottom {
+            margin-top: 10px;
+            background-color: #000;
+            /* padding: 20px; */
+            text-align: center;
+        }
+
+        .footerBottom p {
+            color: white;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+
+        .designer {
+            opacity: 0.7;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            margin: 0px 5px;
+        }
+
+        .footer {
+            margin-top: 10px;
+            background-color: #000;
+           height:100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <div class="srh">
+                    <input type="search" placeholder="Search now">
+
+                </div>
+
+
+            </ul>
+
+        </nav>
+        <h1> THE LION GYM</h1>
+    </div>
+
+    <section class="main1">
+        <h1>
+            JOINING FORM
+        </h1>
+        <div class="login">
+            <form action="">
+                <div class="login1 login-1"><input type="text" placeholder="ENTER YOUR NAME"></div>
+                <div class="login1 login-2">
+                    <input type="text" placeholder="ENTER YOUR NUMBER ">
+                </div>
+                <div class="login1 login-3">
+                    <input type="email" placeholder="ENTER YOUR EMAIL  ">
+                </div>
+                <div class="login1 login-4">
+                    <input type="date">
+                </div>
+                <div class="login1 login-5">
+                    <button>Submit </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://github.com/deepuu05"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/deepuu05//"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/deepuu.05/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://telegram.org/"><i class='bx bxl-telegram'></i></a>
+            </div>
+        </div>
+
+
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">THE LION GYM</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
